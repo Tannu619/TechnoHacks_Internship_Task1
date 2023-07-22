@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+    <div class="OuterBody contianer-fluid">
+        <div class="calculator">
+            <div class="OutputScreen">
+                <div class="history" id="history"></div>
+                <input type="text" class="output" id="output" readonly/>     
+            </div>
+            <div class="InputPad row">
+                <div class="Col1 col-3">
+                    <input type="button" value="C" class="row InputBtn" id="BtnC"/>
+                    <input type="button" value="7" class="row InputBtn" id="Btn7"/>
+                    <input type="button" value="4" class="row InputBtn" id="Btn4"/>
+                    <input type="button" value="1" class="row InputBtn" id="Btn1"/>
+                    <input type="button" value="0" class="row InputBtn" id="Btn0"/>
+                </div>
+                <div class="Col2 col-3">
+                    <input type="button" value="(" class="row InputBtn" id="BtnLeftBraket"/>
+                    <input type="button" value="8" class="row InputBtn" id="Btn8"/>
+                    <input type="button" value="5" class="row InputBtn" id="Btn5"/>
+                    <input type="button" value="2" class="row InputBtn" id="Btn2"/>
+                    <input type="button" value="." class="row InputBtn" id="BtnPoint"/>
+                </div>
+                <div class="Col3 col-3">
+                    <input type="button" value=")" class="row InputBtn" id="BtnRightBracket"/>
+                    <input type="button" value="9" class="row InputBtn" id="Btn9"/>
+                    <input type="button" value="6" class="row InputBtn" id="Btn6"/>
+                    <input type="button" value="3" class="row InputBtn" id="Btn3"/>
+                    <input type="button" value="=" class="row InputBtn" id="BtnEqual"/>
+                </div>
+                <div class="Col4 col-3">
+                    <input type="button" value="+" class="row InputBtn" id="BtnPlus"/>
+                    <input type="button" value="-" class="row InputBtn" id="BtnMinus"/>
+                    <input type="button" value="*" class="row InputBtn" id="BtnMultiply"/>
+                    <input type="button" value="/" class="row InputBtn" id="BtnDivide"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="JS.js"></script>
+</html>
+
+
